@@ -1,0 +1,282 @@
+{
+  "basics": {
+    "name": "Pedro Romario Jara",
+    "label": "Frontend Developer",
+    "image": "/assets/roma.webp",
+    "email": "romario.jara.ch@gmail.com",
+    "phone": "+51 972214966",
+    "url": "",
+    "summary": "Desarrollador front-end extremadamente apasionado con una alta capacidad de atención al detalle. Me gustaría obtener experiencias personales y laborales que promuevan mi desarrollo colaborando con los objetivos de la empresa en el mundo de la tecnología",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Lima",
+      "countryCode": "PE",
+      "region": "Peru"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "",
+        "url": "https://www.linkedin.com/in/romario-jara-chavez-840356311/"
+      },
+      {
+        "network": "GitHub",
+        "username": "iRoma23",
+        "url": "https://github.com/iRoma23"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "A Softech",
+      "position": "Frontend Developer",
+      "startDate": "2023-05-01",
+      "endDate": "2023-08-01",
+      "summary": "Creación de un sistema web de control de proyectos y documentario con React. Trabajé con un miembro de backend para poder consumir los endpoints creados por él. El proyecto se realizó con React utilizando React Router para la navegación, React Query para el fetching de datos y Tailwind CSS para estilizar la aplicación. Además, construí tablas con React Table para la visualización, creación, actualización y eliminación de las listas de proyectos, EDTs, entregables y transmittals.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Adevinta",
+      "position": "Lead Frontend Architect",
+      "url": "https://twitch.tv/midudev",
+      "startDate": "2016-06-01",
+      "endDate": "2022-09-01",
+      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Hubii",
+      "position": "Senior FrontEnd Developer",
+      "startDate": "2011-03-01",
+      "endDate": "2016-05-01",
+      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "UTEC - Universidad de Ingeniería y Tecnología",
+      "url": "https://utec.edu.pe/",
+      "area": "Ingeniería Electrónica",
+      "studyType": "Bachelor",
+      "startDate": "2019-01-01",
+      "endDate": "2012-01-01"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "courses": [
+    {
+      "name": "Full Stack Open - TypeScript",
+      "institution": "University of Helsinki",
+      "date": "2022-11-07",
+      "url": "https://studies.cs.helsinki.fi/stats/api/certificate/fs-typescript/en/ab1206378a71ad315049209ef071b3d1",
+      "image": "/assets/certificate-typescript.webp"
+    },
+    {
+      "name": "Full Stack Open - Fullstack",
+      "institution": "University of Helsinki",
+      "date": "2022-11-07",
+      "url": "https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/d0b4d1fac7131c03ea8f712ae4e7cdd4",
+      "image": "/assets/certificate-fullstack.webp"
+    },
+    {
+      "name": "Desarrollo Web Fullstack",
+      "institution": "Tecsup - CodiGo",
+      "date": "2022-07-03",
+      "url": "https://academico-cloud.tecsup.edu.pe/pcc/#/home/certificado?c=586309&n=COD%2FCPE%2F22%2F125",
+      "image": "/assets/codigo.webp"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "Astro",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "UI"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend",
+        "JavaScript",
+        "Servidor"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Clon Spotify",
+      "isActive": true,
+      "description": "",
+      "highlights": [
+        "Elige tu propia aventura",
+        "En desarrollo"
+      ],
+      "url": "https://spotify-clone-astro-beige.vercel.app/"
+    },
+    {
+      "name": "World Ranks",
+      "isActive": true,
+      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "highlights": [
+        "+1 millón de visitas",
+        "Multidioma",
+        "JavaScript & TypeScript"
+      ],
+      "url": "https://country-2j1.pages.dev/"
+    }
+  ]
+}
