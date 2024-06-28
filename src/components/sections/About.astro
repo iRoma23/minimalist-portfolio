@@ -1,0 +1,12 @@
+---
+import Wrapper from "@/components/Wrapper.astro";
+import { basics } from "@/data/cv.json";
+
+const { summary } = basics;
+---
+
+<Wrapper title="Sobre mí">
+  <p>
+    {summary}
+  </p>
+</Wrapper>
