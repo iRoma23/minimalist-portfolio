@@ -31,30 +31,10 @@
     {
       "name": "A Softech",
       "position": "Frontend Developer",
+      "url": "",
       "startDate": "2023-05-01",
       "endDate": "2023-08-01",
       "summary": "Creación de un sistema web de control de proyectos y documentario con React. Trabajé con un miembro de backend para poder consumir los endpoints creados por él. El proyecto se realizó con React utilizando React Router para la navegación, React Query para el fetching de datos y Tailwind CSS para estilizar la aplicación. Además, construí tablas con React Table para la visualización, creación, actualización y eliminación de las listas de proyectos, EDTs, entregables y transmittals.",
-      "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-      "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
       "highlights": [
         "Started the company"
       ]
