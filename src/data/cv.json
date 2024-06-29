@@ -12,7 +12,7 @@
       "postalCode": "",
       "city": "Lima",
       "countryCode": "PE",
-      "region": "Peru"
+      "region": "Perú"
     },
     "profiles": [
       {
@@ -162,17 +162,6 @@
       ]
     },
     {
-      "name": "Next.js",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "React Framework",
-        "SSR",
-        "Static Generation"
-      ]
-    },
-    {
       "name": "Astro",
       "level": "Avanzado",
       "keywords": [
@@ -240,23 +229,35 @@
     {
       "name": "Clon Spotify",
       "isActive": true,
-      "description": "",
+      "description": "Interfaz de usuario similar a la de Spotify. Cuenta con las caracteristicas principales de un audio player. Esta es la continuación de un proyecto de midudev, al cual le solucioné algunos bugs y agregué nuevas funcionalidades.",
       "highlights": [
         "Elige tu propia aventura",
         "En desarrollo"
       ],
-      "url": "https://spotify-clone-astro-beige.vercel.app/"
+      "url": "https://spotify-clone-astro-beige.vercel.app/",
+      "skills": [
+        "astro",
+        "react",
+        "typescript",
+        "taildwind"
+      ]
     },
     {
       "name": "World Ranks",
       "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "description": "Construí una página con filtros y barra de busqueda en la que se visualiza un listado de países. Para ello, utilicé una API REST para obtener los datos",
       "highlights": [
         "+1 millón de visitas",
         "Multidioma",
         "JavaScript & TypeScript"
       ],
-      "url": "https://country-2j1.pages.dev/"
+      "url": "https://country-2j1.pages.dev/",
+      "skills": [
+        "typescript",
+        "taildwind",
+        "react",
+        "react-router-dom"
+      ]
     }
   ]
 }
