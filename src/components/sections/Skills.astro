@@ -1,0 +1,64 @@
+---
+import Asteroid from "@/icons/A.astro";
+import CSS from "@/icons/CSS.astro";
+import Git from "@/icons/Git.astro";
+import HTML from "@/icons/HTML.astro";
+import JavaScript from "@/icons/JavaScript.astro";
+import MySQL from "@/icons/MySQL.astro";
+import Node from "@/icons/Node.astro";
+import React from "@/icons/React.astro";
+import Tailwind from "@/icons/Tailwind.astro";
+import TypeScript from "@/icons/TypeScript.astro";
+
+import Wrapper from "@/components/Wrapper.astro";
+
+import { skills } from "@/data/cv.json";
+
+const ICONS: Record<string, any> = {
+  Asteroid,
+  CSS,
+  Git,
+  HTML,
+  JavaScript,
+  MySQL,
+  Node,
+  React,
+  Tailwind,
+  TypeScript,
+};
+---
+
+<Wrapper title="Habilidades">
+  <ul>
+    {
+      skills.map(({ name }) => {
+        const iconName = name === "Astro" ? "Asteroid" : name;
+        const Icon = ICONS[iconName];
+        return (
+          <li>
+            {Icon && <Icon />} <span>{name}</span>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Wrapper>
+
+<style>
+  ul {
+    display: inline-flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    background-color: #eee;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.625rem;
+    letter-spacing: 0.0625rem;
+    font-weight: 700;
+  }
+</style>
