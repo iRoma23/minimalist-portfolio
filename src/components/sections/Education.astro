@@ -1,0 +1,62 @@
+---
+import Wrapper from "@/components/Wrapper.astro";
+
+import { education } from "@/data/cv.json";
+---
+
+<Wrapper title="Educación">
+  <ul>
+    {
+      education.map(({ institution, area, startDate, endDate }) => {
+        const startYear = new Date(startDate).getUTCFullYear().toString();
+        const endYear =
+          endDate != null
+            ? new Date(endDate).getUTCFullYear().toString()
+            : "Presente";
+
+        return (
+          <li>
+            <article>
+              <header>
+                <h3>{institution}</h3>
+                <h4>{area}</h4>
+              </header>
+              <div class="item-a">
+                <time datetime={startYear}>{startYear}</time>
+                {" - "}
+                <time datetime={endYear}>{endYear}</time>
+              </div>
+            </article>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Wrapper>
+
+<style>
+  article {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+  }
+
+  h3,
+  h4 {
+    font-size: 1rem;
+  }
+
+  h4 {
+    font-weight: 500;
+  }
+
+  .item-a {
+    font-size: 0.75rem;
+  }
+</style>
