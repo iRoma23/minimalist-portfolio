@@ -97,4 +97,15 @@ const getStringDate = (d: string | null): string => {
   .item-b {
     font-size: 0.75rem;
   }
+
+  @media (width >= 640px) {
+    header {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .item-b {
+      align-self: center;
+    }
+  }
 </style>
